@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1, minimum-scale=1, viewport-fit=cover, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>House Of Photography</title>
+    </head>
+    <body class="">
+
+		<!-- for dev -->
+		<div id="test_block"></div>
+
+		<!-- needed? -->
+		<div id="generic_loader" class="colour_fill snap_in_fade_out white"><div class="loader"></div><p>Getting your results</p></div>
+
+
+        <!-- Product Finder - X-Series -->
+        <div id="product_finder" class="page_container show_page" data-header="Product"></div>
+        <!-- /Product Finder - X-Series -->
+
+
+        <!-- Product Finder Results -->
+        <div id="product_finder_results" class="page_container hide_page" data-header="Product">
+			<div class="content_container">
+				<div id="product_finder_results_inner"></div>
+
+
+
+				<div id="learn_more" class="learn_more_popup">
+					<div class="standfirst h6 txt_centered marginT_1"></div>
+
+					<div class="content_fade white top"></div>
+					<div class="description_outer scroll_outer marginT_2">
+						<div class="description body_copy txt_centered scroll_inner"></div>
+					</div>
+					<div class="content_fade white bottom"></div>
+					<div class="swipe_icon bg"></div>
+
+					<div class="learn_more_btns txt_centered marginT_2">
+						<div class="learn_more_popup_btn grad_bg specs" data-btn="specs"><span class="h8 white centre_x_y"></span></div>
+						<div class="learn_more_popup_btn grad_bg sample" data-btn="sample"><span class="h8 white centre_x_y"></span></div>
+						<div class="learn_more_popup_btn grad_bg test" data-btn="test"><span class="h8 white centre_x_y"></span></div>
+					</div>
+				</div>
+
+				<div id="specs" class="learn_more_popup">
+					<div id="specs_inner">
+						<div class="close_btn bg"></div>
+						<div class="h5 txt_centered white specs_header"></div>
+						<div class="content_fade blue top"></div>
+						<div class="scroll_outer specs_details_outer">
+							<div class="scroll_inner specs_details_inner white"></div>
+						</div>
+						<div class="content_fade blue bottom"></div>
+						<div class="swipe_icon white bg"></div>
+					</div>
+				</div>
+
+				<div id="sample" class="learn_more_popup">
+					<div class="sample_img_outer scroll_outer no_fades">
+						<div class="sample_img_inner scroll_inner"></div>
+					</div>
+					<div class="swipe_icon white bg"></div>
+				</div>
+
+				<div class="nav_btn_container">
+					<div class="btn nav_btn reset dark_grey">
+						<div class="centre_x_y">
+							<div class="icon"></div>
+							<span class="txt_centered"></span>
+						</div>
+					</div>
+					<div class="btn nav_btn prev white">
+						<div class="centre_x_y">
+							<div class="icon"></div>
+							<span class="txt_centered"></span>
+						</div>
+					</div>
+				</div>
+
+            </div>
+		</div>
+        <!-- /Product Finder Results -->
+
+
+		<!-- Lens Test -->
+		<div id="product_finder_lens_test" class="page_container with_tab_bar hide_page">
+
+			<div id="test_loader" class="colour_fill snap_in_fade_out white"><div class="loader"></div></div>
+
+			<div class="content_container with_tab_bar safari_only">
+
+				<div class="col span_1_of_2">
+					<div class="option_panel_btns marginT_30">
+
+						<div class="btn lens_switch_btn lens_1 h3 selected">
+							<div class="centre_x_y">
+								<div class="arrow"></div>
+								<span></span>
+							</div>
+						</div>
+
+						<div class="option_panel_btn btn txt_centered selected" data-option="lens">
+							<span class="selected_title centre_x_y h8"></span>
+							<span class="btn_title centre_x_y h8"></span>
+						</div>
+
+						<div class="option_panel_btn btn txt_centered disabled" data-option="focal_length">
+							<span class="selected_title centre_x_y h8"></span>
+							<span class="btn_title centre_x_y h8"></span>
+						</div>
+
+						<div class="option_panel_btn btn txt_centered disabled" data-option="aperture">
+							<span class="selected_title centre_x_y h8"></span>
+							<span class="btn_title centre_x_y h8"></span>
+						</div>
+
+						<div class="btn lens_switch_btn lens_2 h3">
+							<div class="centre_x_y">
+								<div class="arrow right"></div>
+								<span></span>
+							</div>
+						</div>
+
+					</div>
+					<div class="lens_type_btns">
+						<div class="lens_type_btn btn selected" data-option="prime_lens"></div>
+						<div class="lens_type_btn btn" data-option="zoom_lens"></div>
+					</div>
+					<div class="option_wrapper">
+						<div class="option_panel" data-panel="prime_lens"><div class="option_panel_inner"></div></div>
+						<div class="option_panel" data-panel="zoom_lens"><div class="option_panel_inner"></div></div>
+						<div class="option_panel" data-panel="focal_length"><div class="option_panel_inner"></div></div>
+						<div class="option_panel" data-panel="aperture"><div class="option_panel_inner"></div></div>
+					</div>
+					<div class="btn_wrapper">
+						<div class="btn clear orange">
+							<div class="centre_x_y">
+								<div class="icon bg"></div>
+								<span></span>
+							</div>
+						</div>
+						<div class="btn compare orange">
+							<div class="centre_x_y">
+								<div class="icon bg"></div>
+								<span></span>
+							</div>
+						</div>
+						<div class="btn cancel dark_grey">
+							<div class="centre_x_y">
+								<div class="icon bg"></div>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col span_1_of_2" id="test_image_container">
+					<div id="test_img_1" class="test_img_outer">
+						<div class="selection_display white h5"></div>
+						<div class="test_img bg"></div>
+					</div>
+					<div id="test_img_2" class="test_img_outer col span_1_of_2">
+						<div class="selection_display white h5"></div>
+						<div class="test_img bg"></div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="nav_btn_container shown">
+					<div class="btn nav_btn reset dark_grey">
+						<div class="centre_x_y">
+							<div class="icon"></div>
+							<span class="txt_centered"></span>
+						</div>
+					</div>
+					<div class="btn nav_btn prev white">
+						<div class="centre_x_y">
+							<div class="icon"></div>
+							<span class="txt_centered"></span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- /Lens Test -->
+
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/fastclick.js"></script>
+        <script async src="https://www.google-analytics.com/analytics.js"></script>
+		<script type="text/javascript" src="js/pages.js"></script>
+        <script type="text/javascript" src="js/main.js?v1.0.0"></script>
+        <script type="text/javascript" src="js/navigation.js"></script>
+
+    </body>
+</html>

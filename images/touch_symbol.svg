@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="446.156" height="544.298" viewBox="0 0 446.156 544.298">
+  <g id="Group_395" data-name="Group 395" transform="translate(-932.85 -2260)">
+    <g id="TOUCH_CIRCLE" data-name="TOUCH CIRCLE" transform="translate(943 2260)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" cx="137" cy="137" r="137" fill="#fff" opacity="0.294"/>
+    </g>
+    <g id="HAND" transform="translate(932.85 2314.798)">
+      <path id="Icon_material-touch-app" data-name="Icon material-touch-app" d="M317.038,222.087,214.884,171.234a31.686,31.686,0,0,0-12.151-2.475h-17.1V33.751a33.752,33.752,0,1,0-67.5,0l0,241.665-77.178-16.2a39.325,39.325,0,0,0-5.4-.675,25.172,25.172,0,0,0-17.776,7.426L0,283.968,111.153,395.124a33.87,33.87,0,0,0,23.851,9.9H287.786c16.876,0,29.926-12.376,32.4-28.8l16.876-118.583a32.341,32.341,0,0,0-20.026-35.552Z" transform="matrix(0.951, -0.309, 0.309, 0.951, 0.002, 104.298)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

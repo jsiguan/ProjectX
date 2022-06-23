@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('BrandonGrotesque-Bold.woff2') format('woff2'),
+        url('BrandonGrotesque-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers LT Pro';
+    src: url('UniversLTPro-55Roman.woff2') format('woff2'),
+        url('UniversLTPro-55Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Univers LT Pro';
+    src: url('UniversLTPro-65Bold.woff2') format('woff2'),
+        url('UniversLTPro-65Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
